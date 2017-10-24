@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>简历</title>
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<style type="text/css" media="screen">
+	html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strong, sub, sup, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, p {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			outline: 0;
+			font-size: 100%;
+			vertical-align: baseline;
+			background: transparent;
+			box-sizing: border-box;
+		}
+		.container{
+			height: 842px;
+			width: 595px;
+			font-size: 12px;
+			overflow: hidden;
+		}
+		.head{
+			background:#0e60c6;
+			width: 100%;
+			height:120px;
+			font-size: 30px;
+			color: white;
+			padding-left: 20px;
+			float: left;
+			line-height:120px;
+		}
+		.tittle{
+			font-size: 16px;
+			color: #0E60C6;
+		}
+		.main{
+			padding: 20px 20px;
+			float: left;
+			width: 65%
+		}
+		.context{
+			padding: 10px 10px;
+		}
+		table{
+			width:300px;
+		}
+		.project{
+			height: 100%;
+			width: 100%;
+		}
+		.project>div:nth-child(1){
+			display: inline-block;
+			width: 90px;
+			height: 100%;
+			vertical-align: top;
+		}
+		.project>div:nth-child(2){
+			display: inline-block;
+			width: 200px;
+			height: 100%；
+		}
+		.project>div:nth-child(2)>p{
+			color: #97989D;
+		}
+		.date{
+			position: relative;
+			display: inline-block;
+			background: #97989D;
+			height: 24px;
+			width: 90px;
+			line-height: 24px;
+			color: white;
+			padding-left: 5px;
+		}
+		.triangle-topright {
+			position:absolute;
+			top: 0;
+			right: 0;
+		    width: 0;
+		    height: 0;
+		    border-top: 12px solid white;
+		    border-left: 12px solid transparent;
+		}
+		.triangle-bottomright {
+			position:absolute;
+			bottom: 0;
+			right: 0;
+		    width: 0;
+		    height: 0;
+		    border-bottom: 12px solid white;
+		    border-left: 12px solid transparent;
+		}
+		.sidebar{
+			position: relative;
+			background: #F5F8F7;
+			float: left;
+			width: 35%;
+			height: 722px;
+			padding: 20px 10px;
+		}
+		.sidebar div{
+			margin-top: 20px;
+		}
+		.sidebar>div:nth-child(2) span{
+			display: inline-block;
+			width: 50%;
+		}
+		.sidebar>p:last-child{
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			font-size: 6px;
+			color:#97989D;
+		}
+		.progress{
+			height: 5px;
+			width: 100%;
+			background: white;
+		}
+		.progressbar{
+			height: 100%;
+			background:#0e60c6;
+		}
+	</style>
+</head>
+<body>
+	<div id="container" class="container">
+		<div id="header" class="head">
+			<p>张锴博</p>
+			<p>*本简历由html与css构建代码存放于github</p>
+		</div>
+		<div id="main" class="main">
+			<div id="yixiang" class="context">
+				<h2 class="tittle">求职意向</h2>
+				<hr>
+				<table>
+						<tr>
+							<td>web前端开发</td><td>实习</td><td>江苏扬州</td><td>2k-4.5k</td>
+						</tr>
+				</table>
+			</div>
+			<div id="education" class="context" >
+				<h2 class="tittle">教育背景</h2>
+				<hr>
+				<table>
+						<tr>
+							<td><span class="date">2017.7-至今<div class="triangle-topright"></div>
+						<div class="triangle-bottomright"></div></span></td><td>南京邮电大学通达学院</td><td>信息工程</td>
+						</tr>
+				</table>
+			</div>
+			<div id="project" class="context">
+				<h2 class="tittle">项目经验</h2>
+				<hr>
+				<div class="project">
+					<div>
+						<span class="date">2017.7-至今<div class="triangle-topright"></div>
+						<div class="triangle-bottomright"></div></span>
+					</div>
+					<div>
+						<span>非响应式产品介绍页demo&nbsp;&nbsp;&nbsp;个人项目</span><br>
+						<p>开发工具：WebStorm、sublime text3 、Chrome<br>项目地址：https://github.com/AkonXI/production-introduction-page-demo<br>业务描述：项目主要功能包括登录、搜索、订阅、注册等。用户可查看搜索相关活动信息及报名申请加入活动；项目主要采用了jQuery、Bootstrap等前端框架<br>责任描述：<br>1. 静态页面制作；<br>2.高可定制下拉菜单；<br>3.登录模块及表单设计；</p>
+					</div>
+				</div>
+			</div>
+			<div id="aboutme" class="context">
+				<h2 class="tittle">自我评价</h2>
+				<hr>
+				<p>积极进取，做事认真负责，拥有团队合作精神！<br>能够编写语义化的HTML，模块化的CSS，完成响应式、自适应等常见布局；熟悉HTML5新增的API，CSS3的渐变/变换等新特性；熟悉JavaScript的基本语法，了解原生的DOM和BOM；了解Ajax，能够基于Ajax实现数据异步加载；了解CSS预处理器Less，前端工程化工具webpack，并在学习使用中；掌握常见的前端兼容处理、性能优化知识和技巧掌握，并会运用WebStrom sublime text 3 npm等工具。</p>
+			</div>
+		</div>
+		<div id="sidebar" class="sidebar">
+			<div id="basic">
+				<h2 class="tittle">基本信息</h2>
+				<hr>
+				<div>
+					<p><span class="fa-stack fa">
+  						<i class="fa fa-circle fa-stack-2x" style="color:#0e60c6"></i>
+  						<i class="fa fa-calendar fa-stack-1x" style="color:white"></i>
+					</span>1996.04.02</p>
+					<p><span class="fa-stack fa">
+  						<i class="fa fa-circle fa-stack-2x" style="color:#0e60c6"></i>
+  						<i class="fa fa-map-marker fa-stack-1x"  style="color:white"></i>
+					</span>江苏扬州</p>
+					<p><span class="fa-stack fa">
+  						<i class="fa fa-circle fa-stack-2x" style="color:#0e60c6"></i>
+  						<i class="fa fa-phone fa-stack-1x" style="color:white"></i>
+					</span>18352786562</p>
+					<p><span class="fa-stack fa">
+  						<i class="fa fa-circle fa-stack-2x" style="color:#0e60c6"></i>
+  						<i class="fa fa-envelope-o fa-stack-1x" style="color:white"></i>
+					</span>zhangkb0402@gmail.com</p>
+					<p><span class="fa-stack fa">
+  						<i class="fa fa-github fa-stack-2x" style="color:#0e60c6"></i>
+					</span>
+					https://github.com/AkonXI</p>
+				</div>
+			</div>
+			<div id="skill">
+				<h2 class="tittle">技能特长</h2>
+				<hr>
+				<div>
+					<div>
+						<span>HTML</span><span>熟练</span>
+						<div class="progress">
+							<div class="progressbar" style="width:75%">
+							</div>
+						</div>
+					</div>
+					<div>
+						<span>CSS</span><span>熟练</span>
+						<div class="progress">
+							<div class="progressbar" style="width:75%">
+							</div>
+						</div>
+						</div>
+					<div>
+						<span>javascript</span><span>熟悉</span>
+						<div class="progress">
+							<div class="progressbar" style="width:50%">
+							</div>
+						</div>
+					</div>
+					<div>
+						<span>jQuery</span><span>掌握</span>
+						<div class="progress">
+							<div class="progressbar" style="width:60%">
+							</div>
+						</div>
+					</div>
+					<div>
+						<span>bootstrap </span><span>掌握</span>
+						<div class="progress">
+							<div class="progressbar" style="width:60%">
+							</div>
+						</div>
+					</div>
+					</div>
+			<div id="interest">
+				<h2 class="tittle">兴趣爱好</h2>
+				<hr>
+				<p>热爱音乐美剧 <br>喜欢接触不同国家的文化
+				<br>乐于探索 发掘未知</p>
+			</div>
+		</div>
+		<p>*本简历由html与css构建,<br>&nbsp&nbsp代码存放于本人GitHub</p>
+	</div>
+</body>
+</html>
